@@ -20,10 +20,13 @@
 
 //Dictionary
 //When logged, this API call displays the data for the word 'diet' in the console. I can edit the link and type in a different word and get a different result, but how would I use this link/API key to create a search feature, and would that be the simplest solution to create a a search/input feature.
-let word = "dog"
+let word = "cat"
 $.ajax(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=98049eee-4abe-481c-badd-b7699a99aba7`)
   .then((data) => {
     console.log(data)
+    console.log(data[0])
+    console.log(data[0].fl)
+    console.log(data[0].shortdef)
     //build HTML with jQuery within this .then
   })
 
