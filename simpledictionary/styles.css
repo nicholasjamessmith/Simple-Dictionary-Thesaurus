@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto:ital,wght@0,300;1,300&display=swap');
 
 body {
   background-color: whitesmoke
@@ -6,6 +6,8 @@ body {
 
 body>h1 {
   text-align: center;
+  font-family: 'Assistant', sans-serif;
+  font-style: italic;
 }
 
 .display {
@@ -32,11 +34,41 @@ body>h1 {
   margin-left: 10px;
   width: 24em;
   font-style: italic;
+  font-family: 'Assistant', sans-serif;
 }
 
 .search-button {
   float: right;
   margin-top: 5px;
   margin-right: 10px;
-  font-style: ;
+  font-family: 'Assistant', sans-serif;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4d5254;
+  width: auto;
+  padding-left: 7em;
+  padding-right: 7em;
+  font-family: 'Assistant', sans-serif;
+}
+
+a:link {
+  color: tomato
+}
+
+a:visited {
+  color: tomato
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: tomato;
 }
