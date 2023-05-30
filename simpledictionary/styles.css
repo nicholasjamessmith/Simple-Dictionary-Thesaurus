@@ -72,3 +72,16 @@ a:hover {
 a:active {
   color: tomato;
 }
+
+.output {
+  font-family: 'Assistant', sans-serif;
+}
+
+.display {
+font-weight: bold;
+}
+
+p {
+font-weight: bold;
+font-size: larger;
+}
