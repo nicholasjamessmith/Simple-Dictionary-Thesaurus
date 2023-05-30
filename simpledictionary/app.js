@@ -12,7 +12,7 @@ $('#searchBtn').click(function () {
       console.log(data[0].hwi.hw, data[0].fl, data[0].shortdef)
       //returns requested data content in HTML form, in this case a word
       $('#word').html(data[0].hwi.hw)
-      //returns part of speach in HTML form
+      //returns part of speech in HTML form
       $('#pos').html(data[0].fl)
       //returns the short definition in HTML form
       $('#def').html(data[0].shortdef)
