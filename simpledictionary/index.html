@@ -13,12 +13,8 @@
 </head>
 
 <body>
-  <ul class="nav">
-    <li><a href=simpledictionary/index.html>Home</a></li>
-    <li><a href="/simpledictionary/favoritewords.html">Favorite Words</a></li>
-    <li><a href="/simpledictionary/mostsearched.html">Most Searched Words</a></li>
-  </ul>
-  <h1>Simple Dictionary</h1>
+  <h1>Simple Dictionary.</h1>
+  <h2>Search for a word to find part of speech and a brief definition.</h2>
   <div class="display">
     <div class="output">
       <p id="word">Word:</p>
@@ -26,6 +22,7 @@
       <p id="def">Definition:</p>
     </div>
     <input type="text" class="search" id="query" placeholder="Enter a word">
+    <button class="reset" id="resetBtn" onclick="window.location.href='index.html'">Reset</button>
     <button class="search-button" id="searchBtn">Search</button>
   </div>
   </div>

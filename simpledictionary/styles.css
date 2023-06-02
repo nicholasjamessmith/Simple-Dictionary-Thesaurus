@@ -10,6 +10,11 @@ body>h1 {
   font-style: italic;
 }
 
+body>h2 {
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+}
+
 .display {
   /*text-align: center;
   display: block;
@@ -18,7 +23,8 @@ body>h1 {
   height: 400px;
   background-color: gainsboro;
   margin: auto;
-  border: 2px solid red
+  border: 2px solid blue;
+  font-weight: bold;
 }
 
 .output {
@@ -27,6 +33,7 @@ body>h1 {
   background-color: gainsboro;
   margin: auto;
   border: 2px solid red;
+  font-family: 'Assistant', sans-serif;
 }
 
 .search {
@@ -44,44 +51,8 @@ body>h1 {
   font-family: 'Assistant', sans-serif;
 }
 
-.nav {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #4d5254;
-  width: auto;
-  padding-left: 7em;
-  padding-right: 7em;
-  font-family: 'Assistant', sans-serif;
-}
-
-a:link {
-  color: tomato
-}
-
-a:visited {
-  color: tomato
-}
-
-a:hover {
-  color: red;
-}
-
-a:active {
-  color: tomato;
-}
-
-.output {
-  font-family: 'Assistant', sans-serif;
-}
-
-.display {
-font-weight: bold;
-}
-
 p {
-font-weight: bold;
-font-size: larger;
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 1em;
 }
