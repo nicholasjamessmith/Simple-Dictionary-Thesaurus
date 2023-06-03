@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto:ital,wght@0,300;1,300&display=swap');
 
 body {
-  background-color: whitesmoke
+  background-color: bisque;
 }
 
 body>h1 {
@@ -21,16 +21,16 @@ body>h2 {
   background-color: orange*/
   width: 600px;
   height: 400px;
-  background-color: gainsboro;
+  background-color:midnightblue;
   margin: auto;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   font-weight: bold;
 }
 
 .output {
   width: 580px;
   height: 365px;
-  background-color: gainsboro;
+  background-color:navajowhite;
   margin: auto;
   border: 2px solid red;
   font-family: 'Assistant', sans-serif;
