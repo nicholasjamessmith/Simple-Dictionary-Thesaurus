@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto:ital,wght@0,300;1,300&display=swap');
 
 body {
-  background-color: bisque;
+  background-color: bisque
 }
 
 body>h1 {
@@ -19,8 +19,8 @@ body>h2 {
   /*text-align: center;
   display: block;
   background-color: orange*/
-  width: 600px;
-  height: 400px;
+  width: 50%;
+  height: 90%;
   background-color:midnightblue;
   margin: auto;
   /*border: 2px solid blue;*/
@@ -28,8 +28,10 @@ body>h2 {
 }
 
 .output {
-  width: 580px;
-  height: 365px;
+  /*width: 580px;
+  height: 365px;*/
+  width:auto;
+  height: auto;
   background-color:navajowhite;
   margin: auto;
   border: 2px solid red;
@@ -39,7 +41,7 @@ body>h2 {
 .search {
   margin-top: 5px;
   margin-left: 10px;
-  width: 24em;
+  width: auto;
   font-style: italic;
   font-family: 'Assistant', sans-serif;
 }
