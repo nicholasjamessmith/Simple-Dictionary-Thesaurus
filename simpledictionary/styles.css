@@ -5,6 +5,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:ital@1&family=Roboto:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:ital@0;1&family=Roboto:ital,wght@0,300;1,300&display=swap');
 
+.nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: larger;
+  background-color:rgba(0, 0, 0, 0.75);
+  width: 100%;
+  overflow: auto;
+}
+
+.nav a {
+  text-decoration: none;
+  color: tomato;
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
 body {
   background-color: whitesmoke
 }
