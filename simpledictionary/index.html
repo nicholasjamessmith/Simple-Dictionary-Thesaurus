@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Dictionary</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <a href="./index.html">Dictionary</a>
+    <a href="./thesaurus_app/index.html">Thesaurus</a>
+  </header>
+  <h1>Simple Dictionary.</h1>
+  <h2>Search for a word to find part of speech and a brief definition.</h2>
+  <div class="display">
+    <div class="output">
+      <p id="word">word</p>
+      <p id="pos">part of speech</p>
+      <p id="def">definition</p>
+    </div>
+    <div class="bar">
+      <input type="text" class="search" id="query" placeholder="Enter a word">
+      <div class="buttonContainer">
+        <button class="reset" id="resetBtn" onclick="window.location.href='index.html'">Reset</button>
+        <button class="search-button" id="searchBtn">Search</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
